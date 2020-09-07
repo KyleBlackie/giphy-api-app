@@ -8,8 +8,15 @@ function getGif(searchTerm) {
   .then(response => img.src = response.data.images.original.url)
   .catch(err => {
     console.log(err);
+    // display error 404 gif
     img.src = "https://media1.tenor.com/images/aae13b1b54443b81e593e6c835087716/tenor.gif?itemid=7878852";
   });
 }
 
-
+// detect if the user presses enter
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.querySelector('button').click();
+    }
+});
