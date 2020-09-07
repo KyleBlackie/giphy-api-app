@@ -8,10 +8,13 @@
 <body onload="getGif('Cats')">
   <img src="#" alt="Gif"/>
   <h1>Giphy API App</h1>
-  <p>Enter a search term below and hit enter to find results from the Giphy API</p>
+  <p>Enter a search term below and  to find results from the Giphy API</p><br>
 
-  <label for="search-term">Enter Search Term: </label>
-  <input type="text" id="search-term" placeholder="e.g. Cats, Dogs..."><br><br>
+  <div>
+    <label for="search-term">Enter Search Term: </label>
+    <input type="text" id="search-term" placeholder="e.g. Cats, Dogs...">
+  </div>
+  <br><br>
   <button type="button" onclick="getGif()">Search</button>
   <script src="main.js"></script>
 </body>
