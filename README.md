@@ -9,4 +9,4 @@ What I learned:
 
 Demo the app here: https://kyleblackie.github.io/giphy-app/
 
-![Imgur](https://i.imgur.com/49cb2Gd.jpg)
+![Imgur](https://i.imgur.com/vvgaFrG.jpg)
